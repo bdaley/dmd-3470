@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daley's Pizza | Contact</title>
+  <meta name="description" content="Contact Daley's Pizza for pickup orders, catering questions, and general inquiries.">
+
+  <meta property="og:title" content="Daley's Pizza | Contact">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/contact.html">
+  <meta property="og:image" content="https://example.com/img/contact-og.jpg">
+  <meta property="og:image:alt" content="Pizza box and notepad ready for customer orders">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg site-nav" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand brand-mark" href="index.html">Daley's Pizza</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="directions.html">Directions</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker">Get in Touch</p>
+        <h1>Questions, Catering Requests, and Pickup Orders</h1>
+        <p class="lead mb-0">Use this placeholder contact layout to collect inquiries now, then connect it to your preferred email service or backend later.</p>
+      </div>
+    </section>
+
+    <section class="pb-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <article class="contact-card p-4 h-100">
+              <h2 class="h4">Contact Details</h2>
+              <p class="mb-1"><strong>Phone:</strong> (555) 123-4567</p>
+              <p class="mb-1"><strong>Email:</strong> hello@daleyspizza.com</p>
+              <p class="mb-4"><strong>Address:</strong> 123 Main Street, Hometown, ST 00000</p>
+
+              <h3 class="h6 text-uppercase">Best Times to Reach Us</h3>
+              <ul class="list-unstyled mb-0">
+                <li>Mon-Thu: 11:00 AM - 9:00 PM</li>
+                <li>Fri-Sat: 11:00 AM - 10:30 PM</li>
+                <li>Sun: 12:00 PM - 8:00 PM</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-lg-7">
+            <article class="contact-card p-4 p-md-5 h-100">
+              <h2 class="h4 mb-3">Send a Message</h2>
+              <form action="#" method="post">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your full name" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="you@example.com" required>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="topic">Topic</label>
+                    <select class="form-select" id="topic" name="topic">
+                      <option value="">Select one</option>
+                      <option value="pickup">Pickup Order</option>
+                      <option value="catering">Catering</option>
+                      <option value="feedback">Feedback</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your question here..." required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-warm" type="submit">Submit Message</button>
+                  </div>
+                </div>
+              </form>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <p class="mb-0">Daley's Pizza · 123 Main Street · (555) 123-4567</p>
+      <p class="mb-0">Placeholder content for launch copy and legal text.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
